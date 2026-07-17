@@ -225,9 +225,9 @@ em, i { font-style: italic; }
 }
 
 .site-logo { display: block; flex-shrink: 0; }
-.site-logo img { width: 232px; }
+.site-logo img { width: 190px; }
 .site-logo:hover { text-decoration: none; }
-@media (max-width: 480px) { .site-logo img { width: 196px; } }
+@media (max-width: 480px) { .site-logo img { width: 168px; } }
 
 .nav ul { display: flex; align-items: center; gap: 36px; }
 
@@ -596,7 +596,7 @@ em, i { font-style: italic; }
   .site-footer__grid { grid-template-columns: 1fr 1fr; gap: 40px; }
   .site-footer__brand { grid-column: 1 / -1; }
 }
-.site-footer__brand img { width: 216px; margin-bottom: 20px; }
+.site-footer__brand img { width: 262px; margin-bottom: 22px; }
 .site-footer__brand p { color: var(--muted); max-width: 36ch; font-size: .92rem; }
 
 .footer-head {
