@@ -332,9 +332,7 @@ em, i { font-style: italic; }
 @media (max-width: 940px)  { .hero__gallery { max-width: 520px; } }
 @media (max-width: 420px)  { .hero__gallery { grid-template-columns: 1fr 1fr; gap: 12px; } }
 
-.portrait { margin: 0; }
-.portrait:nth-child(2) { margin-top: 34px; }        /* dezenter Versatz */
-@media (max-width: 940px) { .portrait:nth-child(2) { margin-top: 0; } }
+.portrait { margin: 0; }        /* beide Porträts auf gleicher Ebene */
 
 .portrait__frame {
   aspect-ratio: 4 / 5; overflow: hidden;
