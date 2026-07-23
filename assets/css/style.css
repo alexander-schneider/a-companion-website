@@ -210,6 +210,11 @@ em, i { font-style: italic; }
 .section-head { margin-bottom: 62px; max-width: 40ch; }
 .section-head .lede { color: var(--muted); }
 
+/* Abstand nach Überschriften (ersetzt die entfernten Zierlinien) */
+:where(h1, h2) + .lede,
+:where(h1, h2) + .measure { margin-top: 22px; }
+.cta :where(h1, h2) + p { margin-top: 22px; }
+
 /* --- Header --------------------------------------------------------------- */
 
 .site-header {
@@ -357,7 +362,7 @@ em, i { font-style: italic; }
   padding-block: clamp(64px, 3rem + 5vw, 104px) clamp(40px, 2rem + 3vw, 68px);
   border-bottom: 1px solid var(--line);
 }
-.page-head .lede { color: var(--muted); margin-top: 4px; }
+.page-head .lede { color: var(--muted); margin-top: 22px; }
 
 /* --- Buttons -------------------------------------------------------------- */
 
